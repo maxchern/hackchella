@@ -20,15 +20,7 @@ class MainMenuScene: SKScene {
     var mainMenuDelegate:MainMenuDelegate?
     //===========Delegate============================//
     
-    var backgroundHue:CGFloat!
-    var otherHue:CGFloat!
-    
-    var BLOQS:SKLabelNode!
-    var tap:SKLabelNode!
-    var leaderboard:SKLabelNode!
-    var background:SKSpriteNode!
-    
-    var adInProcess = false;
+
     
     override func didMoveToView(view: SKView) {
         
@@ -39,22 +31,7 @@ class MainMenuScene: SKScene {
             alpha: 1.0
         )
         
-        BLOQS = SKLabelNode(fontNamed: "Avenir Black")
-        BLOQS.verticalAlignmentMode = SKLabelVerticalAlignmentMode.Baseline
-        BLOQS.fontSize = 50;
-        BLOQS.position = CGPoint(x: 540, y: 1010)
-        BLOQS.text = "bloqs2"
-        self.addChild(BLOQS)
-        
-        tap = SKLabelNode(fontNamed: "Avenir Black")
-        tap.verticalAlignmentMode = SKLabelVerticalAlignmentMode.Top
-        tap.fontSize = 50;
-        tap.position = CGPoint(x: 540, y: 910)
-        tap.text = "tap2play"
-        self.addChild(tap)
-        
-        BLOQS.fontColor = UIColor.whiteColor()
-        tap.fontColor = UIColor.whiteColor()
+
         
 
     }

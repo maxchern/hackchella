@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054666161E90A15100B257DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054666151E90A15100B257DD /* AppDelegate.swift */; };
+		0546661C1E90A15100B257DD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0546661B1E90A15100B257DD /* GameViewController.swift */; };
+		0546661F1E90A15100B257DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0546661D1E90A15100B257DD /* Main.storyboard */; };
+		054666211E90A15100B257DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054666201E90A15100B257DD /* Assets.xcassets */; };
+		054666241E90A15100B257DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054666221E90A15100B257DD /* LaunchScreen.storyboard */; };
+		0546662F1E90A15100B257DD /* HackchellaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0546662E1E90A15100B257DD /* HackchellaTests.swift */; };
+		0546663A1E90A15100B257DD /* HackchellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054666391E90A15100B257DD /* HackchellaUITests.swift */; };
+		054666481E90A28600B257DD /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 054666471E90A28600B257DD /* MainMenu.sks */; };
+		0546664A1E90A29D00B257DD /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054666491E90A29D00B257DD /* MainMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0546662B1E90A15100B257DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0546660A1E90A15100B257DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 054666111E90A15100B257DD;
+			remoteInfo = Hackchella;
+		};
+		054666361E90A15100B257DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0546660A1E90A15100B257DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 054666111E90A15100B257DD;
+			remoteInfo = Hackchella;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054666121E90A15100B257DD /* Hackchella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackchella.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		054666151E90A15100B257DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0546661B1E90A15100B257DD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0546661E1E90A15100B257DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		054666201E90A15100B257DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		054666231E90A15100B257DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		054666251E90A15100B257DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0546662A1E90A15100B257DD /* HackchellaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackchellaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0546662E1E90A15100B257DD /* HackchellaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackchellaTests.swift; sourceTree = "<group>"; };
+		054666301E90A15100B257DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054666351E90A15100B257DD /* HackchellaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackchellaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		054666391E90A15100B257DD /* HackchellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackchellaUITests.swift; sourceTree = "<group>"; };
+		0546663B1E90A15100B257DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054666471E90A28600B257DD /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		054666491E90A29D00B257DD /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0546660F1E90A15100B257DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054666271E90A15100B257DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054666321E90A15100B257DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054666091E90A15100B257DD = {
+			isa = PBXGroup;
+			children = (
+				054666141E90A15100B257DD /* Hackchella */,
+				0546662D1E90A15100B257DD /* HackchellaTests */,
+				054666381E90A15100B257DD /* HackchellaUITests */,
+				054666131E90A15100B257DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		054666131E90A15100B257DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054666121E90A15100B257DD /* Hackchella.app */,
+				0546662A1E90A15100B257DD /* HackchellaTests.xctest */,
+				054666351E90A15100B257DD /* HackchellaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		054666141E90A15100B257DD /* Hackchella */ = {
+			isa = PBXGroup;
+			children = (
+				054666151E90A15100B257DD /* AppDelegate.swift */,
+				0546661B1E90A15100B257DD /* GameViewController.swift */,
+				054666471E90A28600B257DD /* MainMenu.sks */,
+				054666491E90A29D00B257DD /* MainMenu.swift */,
+				0546661D1E90A15100B257DD /* Main.storyboard */,
+				054666201E90A15100B257DD /* Assets.xcassets */,
+				054666221E90A15100B257DD /* LaunchScreen.storyboard */,
+				054666251E90A15100B257DD /* Info.plist */,
+			);
+			path = Hackchella;
+			sourceTree = "<group>";
+		};
+		0546662D1E90A15100B257DD /* HackchellaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0546662E1E90A15100B257DD /* HackchellaTests.swift */,
+				054666301E90A15100B257DD /* Info.plist */,
+			);
+			path = HackchellaTests;
+			sourceTree = "<group>";
+		};
+		054666381E90A15100B257DD /* HackchellaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				054666391E90A15100B257DD /* HackchellaUITests.swift */,
+				0546663B1E90A15100B257DD /* Info.plist */,
+			);
+			path = HackchellaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054666111E90A15100B257DD /* Hackchella */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0546663E1E90A15100B257DD /* Build configuration list for PBXNativeTarget "Hackchella" */;
+			buildPhases = (
+				0546660E1E90A15100B257DD /* Sources */,
+				0546660F1E90A15100B257DD /* Frameworks */,
+				054666101E90A15100B257DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hackchella;
+			productName = Hackchella;
+			productReference = 054666121E90A15100B257DD /* Hackchella.app */;
+			productType = "com.apple.product-type.application";
+		};
+		054666291E90A15100B257DD /* HackchellaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054666411E90A15100B257DD /* Build configuration list for PBXNativeTarget "HackchellaTests" */;
+			buildPhases = (
+				054666261E90A15100B257DD /* Sources */,
+				054666271E90A15100B257DD /* Frameworks */,
+				054666281E90A15100B257DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0546662C1E90A15100B257DD /* PBXTargetDependency */,
+			);
+			name = HackchellaTests;
+			productName = HackchellaTests;
+			productReference = 0546662A1E90A15100B257DD /* HackchellaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		054666341E90A15100B257DD /* HackchellaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054666441E90A15100B257DD /* Build configuration list for PBXNativeTarget "HackchellaUITests" */;
+			buildPhases = (
+				054666311E90A15100B257DD /* Sources */,
+				054666321E90A15100B257DD /* Frameworks */,
+				054666331E90A15100B257DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				054666371E90A15100B257DD /* PBXTargetDependency */,
+			);
+			name = HackchellaUITests;
+			productName = HackchellaUITests;
+			productReference = 054666351E90A15100B257DD /* HackchellaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0546660A1E90A15100B257DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Max Chern";
+				TargetAttributes = {
+					054666111E90A15100B257DD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					054666291E90A15100B257DD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 054666111E90A15100B257DD;
+					};
+					054666341E90A15100B257DD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 054666111E90A15100B257DD;
+					};
+				};
+			};
+			buildConfigurationList = 0546660D1E90A15100B257DD /* Build configuration list for PBXProject "Hackchella" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 054666091E90A15100B257DD;
+			productRefGroup = 054666131E90A15100B257DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				054666111E90A15100B257DD /* Hackchella */,
+				054666291E90A15100B257DD /* HackchellaTests */,
+				054666341E90A15100B257DD /* HackchellaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		054666101E90A15100B257DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054666241E90A15100B257DD /* LaunchScreen.storyboard in Resources */,
+				054666481E90A28600B257DD /* MainMenu.sks in Resources */,
+				054666211E90A15100B257DD /* Assets.xcassets in Resources */,
+				0546661F1E90A15100B257DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054666281E90A15100B257DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054666331E90A15100B257DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0546660E1E90A15100B257DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0546661C1E90A15100B257DD /* GameViewController.swift in Sources */,
+				0546664A1E90A29D00B257DD /* MainMenu.swift in Sources */,
+				054666161E90A15100B257DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054666261E90A15100B257DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0546662F1E90A15100B257DD /* HackchellaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054666311E90A15100B257DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0546663A1E90A15100B257DD /* HackchellaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0546662C1E90A15100B257DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 054666111E90A15100B257DD /* Hackchella */;
+			targetProxy = 0546662B1E90A15100B257DD /* PBXContainerItemProxy */;
+		};
+		054666371E90A15100B257DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 054666111E90A15100B257DD /* Hackchella */;
+			targetProxy = 054666361E90A15100B257DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0546661D1E90A15100B257DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0546661E1E90A15100B257DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		054666221E90A15100B257DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054666231E90A15100B257DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0546663C1E90A15100B257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0546663D1E90A15100B257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0546663F1E90A15100B257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hackchella/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxchern.Hackchella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		054666401E90A15100B257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hackchella/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxchern.Hackchella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		054666421E90A15100B257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = HackchellaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxchern.HackchellaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackchella.app/Hackchella";
+			};
+			name = Debug;
+		};
+		054666431E90A15100B257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HackchellaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxchern.HackchellaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackchella.app/Hackchella";
+			};
+			name = Release;
+		};
+		054666451E90A15100B257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = HackchellaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxchern.HackchellaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hackchella;
+			};
+			name = Debug;
+		};
+		054666461E90A15100B257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HackchellaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxchern.HackchellaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hackchella;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0546660D1E90A15100B257DD /* Build configuration list for PBXProject "Hackchella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0546663C1E90A15100B257DD /* Debug */,
+				0546663D1E90A15100B257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0546663E1E90A15100B257DD /* Build configuration list for PBXNativeTarget "Hackchella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0546663F1E90A15100B257DD /* Debug */,
+				054666401E90A15100B257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		054666411E90A15100B257DD /* Build configuration list for PBXNativeTarget "HackchellaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054666421E90A15100B257DD /* Debug */,
+				054666431E90A15100B257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		054666441E90A15100B257DD /* Build configuration list for PBXNativeTarget "HackchellaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054666451E90A15100B257DD /* Debug */,
+				054666461E90A15100B257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0546660A1E90A15100B257DD /* Project object */;
+}

@@ -11,7 +11,10 @@ import SpriteKit
 //===========Delegate============================//
 protocol MainMenuDelegate {
     func goToMaxPage()
+    func goToSwethaPage()
 }
+
+
 //===========Delegate============================//
 
 class MainMenuScene: SKScene {
@@ -22,7 +25,8 @@ class MainMenuScene: SKScene {
     
     var maxText:SKLabelNode!
     var maxBackground:SKSpriteNode!
-    
+    var swethaText:SKLabelNode!
+    var swethaBackground:SKSpriteNode!
 
     
     override func didMoveToView(view: SKView) {
@@ -53,6 +57,24 @@ class MainMenuScene: SKScene {
         maxBackground.addChild(maxText)
         self.addChild(maxBackground)
         
+        swethaText = SKLabelNode(fontNamed: "HelveticaNeue")
+        swethaText.verticalAlignmentMode = SKLabelVerticalAlignmentMode.Center
+        swethaText.fontSize = 100;
+        swethaText.text = "Swetha's cool ass button"
+        swethaText.name = "swethaButtonText"
+        swethaText.fontColor = UIColor (
+            hue: 0.5,
+            saturation: 0.2,
+            brightness: 0.85,
+            alpha: 1.0
+        )
+        
+        swethaBackground = SKSpriteNode(color: UIColor.whiteColor(), size: CGSizeMake(swethaText.frame.size.width+20, swethaText.frame.size.height+20))
+        swethaBackground.position = CGPoint(x: 540, y: 1000)
+        swethaBackground.name = "swethaButtonBackground"
+        
+        swethaBackground.addChild(swethaText)
+        self.addChild(swethaBackground)
         
         
         
@@ -88,6 +110,13 @@ class MainMenuScene: SKScene {
         if let name = touchedNode.name {
             if (name == "maxButtonText" || name == "maxButtonBackground"){
                 mainMenuDelegate!.goToMaxPage()
+                for child in self.children {
+                    child.removeFromParent()
+                }
+                self.removeFromParent()
+            }
+            else if (name == "swethaButtonText" || name == "swethaButtonBackground"){
+                mainMenuDelegate!.goToSwethaPage()
                 for child in self.children {
                     child.removeFromParent()
                 }

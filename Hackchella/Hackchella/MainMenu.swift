@@ -12,6 +12,7 @@ import SpriteKit
 protocol MainMenuDelegate {
     func goToMaxPage()
     func goToSwethaPage()
+    func goToNatePage()
 }
 
 
@@ -27,6 +28,8 @@ class MainMenuScene: SKScene {
     var maxBackground:SKSpriteNode!
     var swethaText:SKLabelNode!
     var swethaBackground:SKSpriteNode!
+    var nateText:SKLabelNode!
+    var nateBackground:SKSpriteNode!
 
     
     override func didMoveToView(view: SKView) {
@@ -70,13 +73,31 @@ class MainMenuScene: SKScene {
         )
         
         swethaBackground = SKSpriteNode(color: UIColor.whiteColor(), size: CGSizeMake(swethaText.frame.size.width+20, swethaText.frame.size.height+20))
-        swethaBackground.position = CGPoint(x: 540, y: 1000)
+        swethaBackground.position = CGPoint(x: 540, y: 1720)
         swethaBackground.name = "swethaButtonBackground"
         
         swethaBackground.addChild(swethaText)
         self.addChild(swethaBackground)
+
         
+        nateText = SKLabelNode(fontNamed: "HelveticaNeue")
+        nateText.verticalAlignmentMode = SKLabelVerticalAlignmentMode.Center
+        nateText.fontSize = 100;
+        nateText.text = "Nates's cooler ass button"
+        nateText.name = "nateButtonText"
+        nateText.fontColor = UIColor (
+            hue: 0.5,
+            saturation: 0.2,
+            brightness: 0.85,
+            alpha: 1.0
+        )
         
+        nateBackground = SKSpriteNode(color: UIColor.whiteColor(), size: CGSizeMake(nateText.frame.size.width+20,   nateText.frame.size.height+20))
+        nateBackground.position = CGPoint(x: 540, y: 1000)
+        nateBackground.name = "nateButtonBackground"
+        
+        nateBackground.addChild(nateText)
+        self.addChild(nateBackground)
         
         /*
         leaderboard = SKLabelNode(fontNamed: "Avenir Black")
@@ -122,6 +143,14 @@ class MainMenuScene: SKScene {
                 }
                 self.removeFromParent()
             }
+            else if (name == "nateButtonText" || name == "nateButtonBackground"){
+                mainMenuDelegate!.goToNatePage()
+                for child in self.children {
+                    child.removeFromParent()
+                }
+                self.removeFromParent()
+            }
+
         }
 
 

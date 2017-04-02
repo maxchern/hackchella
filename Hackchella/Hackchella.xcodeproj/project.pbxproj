@@ -18,6 +18,7 @@
 		0546664A1E90A29D00B257DD /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054666491E90A29D00B257DD /* MainMenu.swift */; };
 		0546664C1E90A9DA00B257DD /* MaxPage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0546664B1E90A9DA00B257DD /* MaxPage.sks */; };
 		0546664E1E90A9EF00B257DD /* MaxPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0546664D1E90A9EF00B257DD /* MaxPage.swift */; };
+		3219D5941E90BB2600C028BC /* NatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3219D5931E90BB2600C028BC /* NatePage.swift */; };
 		397C27011E90B015003FF703 /* SwethaPage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 397C27001E90B014003FF703 /* SwethaPage.sks */; };
 		397C27031E90B028003FF703 /* SwethaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C27021E90B028003FF703 /* SwethaPage.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		054666491E90A29D00B257DD /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		0546664B1E90A9DA00B257DD /* MaxPage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MaxPage.sks; sourceTree = "<group>"; };
 		0546664D1E90A9EF00B257DD /* MaxPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxPage.swift; sourceTree = "<group>"; };
+		3219D5931E90BB2600C028BC /* NatePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NatePage.swift; sourceTree = "<group>"; };
 		397C27001E90B014003FF703 /* SwethaPage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SwethaPage.sks; sourceTree = "<group>"; };
 		397C27021E90B028003FF703 /* SwethaPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwethaPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +119,7 @@
 				397C27021E90B028003FF703 /* SwethaPage.swift */,
 				0546664B1E90A9DA00B257DD /* MaxPage.sks */,
 				0546664D1E90A9EF00B257DD /* MaxPage.swift */,
+				3219D5931E90BB2600C028BC /* NatePage.swift */,
 				0546661D1E90A15100B257DD /* Main.storyboard */,
 				054666201E90A15100B257DD /* Assets.xcassets */,
 				054666221E90A15100B257DD /* LaunchScreen.storyboard */,
@@ -281,6 +284,7 @@
 				397C27031E90B028003FF703 /* SwethaPage.swift in Sources */,
 				0546664A1E90A29D00B257DD /* MainMenu.swift in Sources */,
 				054666161E90A15100B257DD /* AppDelegate.swift in Sources */,
+				3219D5941E90BB2600C028BC /* NatePage.swift in Sources */,
 				0546664E1E90A9EF00B257DD /* MaxPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

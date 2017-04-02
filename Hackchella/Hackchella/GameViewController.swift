@@ -11,7 +11,7 @@ import UIKit
 import SpriteKit
 import GameKit
 
-class GameViewController: UIViewController, MainMenuDelegate {
+class GameViewController: UIViewController, MainMenuDelegate, MaxPageDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,8 +65,30 @@ class GameViewController: UIViewController, MainMenuDelegate {
         }
     }
     
-    func play() {
-        print("play")
+    func goToMaxPage() {
+        
+        if let scene = MaxPageScene(fileNamed:"MaxPage") {
+            // Configure the view.
+            let skView = self.view as! SKView
+            
+            //***********NODECOUNT/FPS************//
+            skView.showsFPS = false
+            skView.showsNodeCount = false
+            
+            /* Sprite Kit applies additional optimizations to improve rendering performance */
+            skView.ignoresSiblingOrder = true
+            
+            /* Set the scale mode to scale to fit the window */
+            scene.scaleMode = .AspectFit
+            
+            scene.maxPageDelegate = self
+            
+            
+            skView.presentScene(scene)
+            
+            
+        }
+        
     }
 
     
